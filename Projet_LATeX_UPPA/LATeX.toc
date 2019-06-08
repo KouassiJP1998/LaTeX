@@ -1,0 +1,7 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {french}
+\beamer@sectionintoc {1}{Les activit\IeC {\'e}s}{6}{0}{1}
+\beamer@subsectionintoc {1}{1}{Des exemples de projets}{8}{0}{1}
+\beamer@sectionintoc {2}{S\IeC {\'e}curit\IeC {\'e} informatique dans la soci\IeC {\'e}t\IeC {\'e}}{15}{0}{2}
+\beamer@subsectionintoc {2}{1}{Le LHS}{15}{0}{2}
+\beamer@subsectionintoc {2}{2}{D\IeC {\'e}tection des codes malveillants}{17}{0}{2}

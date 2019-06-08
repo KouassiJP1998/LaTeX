@@ -1,0 +1,209 @@
+\documentclass[a4paper, 12pt]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[francais]{babel}
+\usepackage{graphicx}
+
+\usepackage{hyperref}
+%\usepackage{epstopdf}[table]
+
+\usepackage{beamerthemeshadow}
+\useinnertheme[shadow=true]{rounded}
+\useoutertheme{infolines}
+\usecolortheme{wolverine}
+\setcounter{tocdepth}{1}
+\setbeamerfont{block title}{size={}}
+\setbeamertemplate{footline}[default]
+\setbeamercovered{transparent=30}
+
+
+\setbeamercolor{titlelike}{parent=structure,bg=red}
+\title{Informatique et Science du Numérique}
+\date{\today}
+\author{Gnebehi Bagre Jean Philippe ET Sow Mamadou Binta}
+\begin{document}
+	\begin{frame}
+		\titlepage
+	\end{frame}
+\begin{frame}
+\frametitle{\textbf{\textcolor{gray}{PLAN}}}
+\tableofcontents
+\end{frame}
+	\begin{frame}
+			   \begin{block}{Résumé}
+			   		\begin{abstract}
+			   Les cours d'\textcolor{blue}{\textit{ISN}}\footnote{Informatique des sciences du Numérique}  se dérouleront par le biais de différentes activités comme des débats, des exposés, des travaux pratiques et des projets. Les activités sont organisées autour d'une équipe d'élèves. Elles permettent de mettre en œuvre les savoirs et capacités acquis au cours de l'année.
+			   	\end{abstract}
+			   \end{block} 	
+	
+	\end{frame}
+	\section{Les activités}	
+	\begin{frame}
+		\begin{block}{}
+		Les activités principalement développées lors des cours d'ISN sont « les projets ». Ces projets sont réalisés par les élèves sous la conduite du professeur. Ils permettent de pouvoir traiter certaines parties du programme en toute autonomie, mais ils peuvent aussi porter sur des problématiques issues d'autres disciplines.
+Le développement d'un projet permet d'acquérir les compétences suivantes:
+
+      \begin{itemize}
+
+\item Proposer une approche qui réponde au cahier des charges
+\item Mener des recherches documentaires
+\item Gérer les étapes de l'avancement d'un projet
+\item Concevoir un projet en autonomie
+ \end{itemize}	
+		\end{block}	
+	\end{frame}
+	    
+   [table]
+      
+	
+	\begin{frame}
+	
+		
+		\begin{block}{\textbf{Exemples de projets}}
+	\begin{table}
+    \begin{tabular}{|l|l|p{3cm}|} \hline
+    
+\textbf{Nom du projet} & \textbf{Site web}&\textbf{Lycée}\\ \hline  \pause
+    
+Cubesta&\href{http://cubesta-project.github.io/CubeSTA/}{\textcolor{blue}{cubesta-project.github.io}}&Lycée du Forez (Feurs - Loire)\\ \hline \pause
+    
+Crazy Game&\href{http://www.yorka-design.fr/ISN/}{\textcolor{blue}{www.yorka-design.fr}}&Lycée Arthur Varoquaux Tomblaine \\ \hline
+    \end{tabular}
+    \end{table}
+		\end{block}
+	\end{frame}
+[table]
+		
+			\section{Éléments du programme}
+	\begin{frame}
+		
+		\begin{block}{\textbf{Les Éléments du Programme}}
+		
+ Ce cours est enseigné deux heures par semaine. Le programme est composé de quatre parties: \textbf{ Représentation de l’information, algorithmique, langage et programmation, architectures matérielles etc...}
+\vfill
+\begin{center}
+ \includegraphics[scale=0.5]{isn.png} 
+\end{center}
+\vfill
+		\end{block}	
+\end{frame}
+	
+	\subsection{Representation de L'information}
+	\begin{frame}
+		\begin{block}{\textbf{La représention binaire}}
+		Le système binaire est un système de numération utilisant la base 2. On nomme couramment bit (de l'anglais binary digit, soit « chiffre binaire ») les chiffres de la numération binaire positionnelle. Ceux-ci ne peuvent prendre que deux valeurs, notées par convention 0 et 1. C'est un concept essentiel de l'informatique. En effet, les processeurs des ordinateurs actuels sont composés de transistors ne gérant chacun que deux états.
+\begin{block}{Convertion Binaire}
+\vfill
+\begin{center} \includegraphics[scale=0.2]{isn2.jpg} \end{center}
+\vfill
+\end{block}
+		\end{block}
+\end{frame}
+		
+		\subsection{Representation de L'information}
+	\begin{frame}
+		\begin{block}{\textbf{Numerotation}}
+	L'ordinateur manipule uniquement des valeurs numériques. Une étape de numérisation des objets du monde physique est donc indispensable.
+	 \begin{figure}[!h]
+  \centering
+  \includegraphics[scale=0.3]{graphe1.png}
+  \caption{Exemple Signal de Numérisation}
+  \end{figure}
+		\end{block}
+\end{frame}
+
+	[table]
+	\subsection{Algorihtmique}
+\begin{frame}
+	\begin{block}{Algorithmique simple}
+$\bigstar$ Rechercher un élément dans un tableau trié par une méthode dichotomique:\\
+La recherche dichotomique est une manière efficace et rapide de rechercher un élément dans une structure de données triée. \href{http://openclassrooms.com/courses/recherche-dichotomique}{Voir le lien ici}\\
+$\bigstar$ Trier un tableau par sélection:\\L'idée est simple : rechercher le plus grand élément (ou le plus petit), le placer en fin de tableau (ou en début) et assurer la suite du tri. \href{http://openclassrooms.com/courses/le-tri-par-selection}{Plus de détail}
+	\end{block}
+\end{frame}
+	
+\begin{frame}
+		\begin{block}{\textbf{Algorithmique Avancée}}
+$\blacktriangleright$Tri par fusion:
+    Le principe de cet algorithme est très simple. Il consiste à fusionner deux sous-séquences triées en une séquence triée.\\
+   \begin{figure}[!h]
+  \centering
+    \begin{center}
+	38		27		43		3\\
+$\swarrow$  $\searrow$\\
+	38		27	\hspace{1cm}	43		3\\
+$\swarrow$\hspace{2cm}$\searrow$\\
+38\hspace{0.5cm}27\hspace{2.5cm}43\hspace{0.5cm}3\\
+$\searrow$\hspace{2.5cm}$\swarrow$\\
+27		38 \hspace{1cm}	3 	43\\
+$\searrow$\hspace{1cm}$\swarrow$\\
+$\searrow$\hspace{0.1cm}$\swarrow$\\
+3	27	38		43\\
+	  \end{center}
+	  \caption{\textcolor{brown}{Exemple de tri par fusion}}
+  \end{figure}
+  \end{block}
+\end{frame}
+	
+\subsection{Langage et Programmation}
+	\begin{frame}
+		\begin{block}{\textbf{fonction}}
+		En ISN, une fonction est une routine qui retourne une valeur.\\
+Une fonction possède:\\
+$\centerdot$ Un nom\\
+$\centerdot$ Des paramètres comportant chacun un nom et un type\\
+$\centerdot$ Un type de sa valeur de retour\\
+$\centerdot$ Un bloc de code qui est celui de la fonction\\
+$\centerdot$ L'affectation d'un résultat à une variable qui est sa valeur de retour.
+		\end{block}
+\end{frame}
+
+	\begin{frame}
+		\begin{block}{\textbf{Langage de description}}
+			\begin{center}
+ \end{center}         
+\begin{table}[!h]
+\begin{tabular}{|l||p{9cm}|} \hline
+Savoir & Présentation du langage HTML et du principe de séparation du contenu et de la mise en forme.\\ \hline \hline
+Capacités & Créer et analyser une page web en langage HTML.\\ \hline \hline
+Observation & On met en valeur le double usage du langage, lisible par un humain et interprétable par une machine. On utilise HTML pour écrire une page « à la main », puis on insiste sur le fait que ce langage sert aussi de cible à des générateurs de pages. On évalue la qualité des pages du point de vue de la correction syntaxique et de l'efficacité du message.\\ \hline
+\end{tabular}
+\end{table}
+		\end{block}{tableau Recaputlatif}
+\end{frame}
+	
+\subsection{Architecture matériel}
+	\begin{frame}
+		\begin{block}{\textbf{Architecrure des Ordinateurs}}
+		$\bullet$  Éléments d’architecture\\
+\href{http://web.isen-bretagne.fr/livres/python/ressources/WEB/00-Chapitres/Chap1-Architecture.pdf}{\textcolor{blue}{voir le lien}}\\
+$\bullet$  Jeu d’instruction\\
+Le jeu d'instructions précise non seulement les registres et instructions supportées par le processeur, mais aussi la façon dont ces instructions et les opérandes sont représentés en mémoire.
+Chaque instruction machine contient un code qui indique l'instruction à exécuter : addition, multiplication, branchement, etc. Ce code est appelé le code-opération, en abrégé opcode. 
+\begin{center}
+\includegraphics[scale=0.3]{MIPS32_instruction.png}
+\end{center}
+		
+		\end{block}
+\end{frame}
+
+	\subsection{Reseau}
+\begin{frame}
+		\begin{block}{\textbf{Transmisssion point a point}}
+		Le lien ci dessous vous permettra de mieux comprendre:\\
+\href{http://abcdrfc.free.fr/rfc-vf/pdf/rfc1661.pdf}{$\bullet$\textcolor{blue}{\textit{TPP}}}\footnote{Transmission point par point}
+	\end{block}
+	\begin{block}{\textbf{Adressage sur un reseau}}
+	Cour vidéo de sous-réseaux et de masque de sous réseaux.\\
+\href{http://www.youtube.com/watch?v=zlzh1QcBb54}{$\bullet$\textcolor{blue}{\textit{ICI}}}
+	\end{block}
+	
+\end{frame}
+	\section{Conclusion}
+		\begin{frame}
+			\begin{block}{\textbf{\textit{\textcolor{magenta}{Conclusion}}}}
+			 La Spécialité ISN (Informatique et Sciences du Numériques) permet aux élèves des classes de Terminale S (robotique, réseaux internet algorithmique, programmation en langage objet...), et cela pendant deux heures hebdomadaire.
+Les élèves peuvent présenter cette spécialité au baccalauréat. Ils leur faudra pour cela mener un travail de projet en équipe (2 à 5 élèves par équipe) et le présenter à l’oral le jour de l’épreuve (le tout accompagné par un dossier numérique).
+Les projets sont variés, laissés à l’initiative des élèves, mais toutefois tempérés par le professeur encadrant la discipline.			
+			\end{block}
+		\end{frame}
+\end{document}
